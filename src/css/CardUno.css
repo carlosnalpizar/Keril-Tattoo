@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+}
+hr {
+    width: 100%;
+}
+
+*::selection{
+    background-color: #1cab9c;
+}
+
+p{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/*
+    Amarillo:#a4cc3c;  
+    Verde:#1cab9c;  
+    Blanco:#d2eae8; 
+*/
+
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0,5);
+    transition: 0.3s ease-in-out !important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: 0.3s ease-in-out !important;
+    -moz-transition: 0.3s ease-in-out !important;
+    -ms-transition: 0.3s ease-in-out !important;
+    -o-transition: 0.3s ease-in-out !important;
+}
+.container .card {
+    height: 520px;
+}
+.container .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -50px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0,5);
+}
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #000000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.15s ease-in-out;
+    -webkit-transition: 0.15s ease-in-out;
+    -moz-transition: 0.15s ease-in-out;
+    -ms-transition: 0.15s ease-in-out;
+    -o-transition: 0.15s ease-in-out;
+}
+.container .card .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.15s;
+}
+
+
+.card-bg-1 {
+    background-color: rgb(102, 28, 39);
+}
+
+.card-bg-2 {
+    background-color: rgb(13, 82, 75);
+}
+
+.card-bg-3 {
+    background-color: rgb(101, 17, 87)
+}
+
+/*en caso de mobile*/
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+    p{
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .card {
+    max-width: 100%; /*ancho completo en mobile */
+    margin-right: 0;
+    margin-bottom: 20px; /* margen entre las tarjetas en mobile */
+    }
+}

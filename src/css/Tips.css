@@ -1,0 +1,52 @@
+.container2 {
+    max-width: 800px;
+    margin: 1px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gradient-list li {
+    background: rgb(145, 118, 18); /* Colores más oscuros del gradiente */
+    color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gradient-list li:first-child {
+    cursor: pointer;
+    max-width: max-content;
+    background: rgb(13, 82, 75); /* Colores más oscuros del gradiente */
+    font-weight: bold;
+    width: 92%;
+    margin: 0 auto; /* Centra el elemento en lugar de margin-left */
+    margin-top: 10px;
+    color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .gradient-list li {
+        font-size: 14px;
+    }
+}
+.gradient-list.show-tips li:not(:first-child) {
+    display: block;
+}
+.gradient-list li:not(:first-child) {
+    display: none;
+}
+

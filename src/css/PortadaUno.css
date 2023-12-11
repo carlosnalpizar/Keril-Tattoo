@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Faster+One&family=Merriweather+Sans:wght@800&family=Nosifer&display=swap');
+@font-face {
+    font-family: 'Bad Mofo';
+    src: url('../fonts/BadMofo.ttf') format('truetype'); /* Ajusta la ruta y el formato según tus archivos de fuente */
+}
+
+.hero body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+h1{
+    font-family: 'Bad Mofo', sans-serif !important;
+    color: white;
+    font-size: 40px !important;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: min-content;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.676); /* Fondo oscurecido */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero p {
+    color: #ffffff;
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+
+
+/*
+    Amarillo:#a4cc3c;  
+    Verde:#1cab9c;  
+    Blanco:#d2eae8; 
+*/
+
+
+/*en caso de compu*/
+@media (min-width: 768px) {
+    .hero {
+        height: 500px; 
+        overflow: hidden; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-overlay h1 {
+        font-size: 24px; /*mobile*/
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-overlay h1 {
+        font-size: 70px !important; /*compu */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-overlay p {
+        font-size: 0.75rem; /*mobile*/
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-overlay p {
+        font-size: 1rem; /*compu */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero img {
+        width: 100%;
+        height: 50%;
+    }
+}

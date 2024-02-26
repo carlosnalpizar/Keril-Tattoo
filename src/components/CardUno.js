@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import '../css/CardUno.css'
-import FotoTattoo1 from '../img/imgBx2.jpg'
 import FotoTattoo2 from '../img/imgBx3.jpg'
 import FotoTattoo3 from '../img/imgBx6.jpg'
 import FotoKeril from '../img/ActualizacionPerfil.jpg'

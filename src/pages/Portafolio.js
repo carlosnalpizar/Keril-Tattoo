@@ -74,7 +74,7 @@ return (
                 <img data-aos="fade-left" src={tatuaje12} alt="Tattoo 7" />
             </div>
              <div className="gallery-item">
-                <img data-aos="fade-left" src={tatuajeNuevo1} alt="Tattoo 3" />
+                <img data-aos="fade-right" src={tatuajeNuevo1} alt="Tattoo 3" />
             </div>
             <div className="gallery-item">
                 <img data-aos="fade-up" src={tatuajeNuevo2} alt="Tattoo 4" />

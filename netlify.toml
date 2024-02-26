@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/App.js"
-statis = 200
+to = "/NotFound"
+status = 200

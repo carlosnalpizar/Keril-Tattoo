@@ -15,6 +15,11 @@ import tatuaje9 from '../img/12.png'
 import tatuaje10 from '../img/13.png'
 import tatuaje11 from '../img/14.png'
 import tatuaje12 from '../img/10.png'
+import Perfil from '../img/ActualizacionPerfil.jpg'
+import tatuajeNuevo1 from '../img/Agregado1.jpg'
+import tatuajeNuevo2 from '../img/Agregado2.jpg'
+import tatuajeNuevo3 from '../img/Agregado3.jpg'
+import tatuajeNuevo4 from '../img/Agregado4.jpg'
 import FooterUno from '../components/FooterUno'
 import HeaderUno from '../components/HeaderUno';
 import BtnVolver from '../components/BtnVolver';
@@ -67,6 +72,18 @@ return (
             </div>
             <div className="gallery-item">
                 <img data-aos="fade-left" src={tatuaje12} alt="Tattoo 7" />
+            </div>
+             <div className="gallery-item">
+                <img data-aos="fade-left" src={tatuajeNuevo1} alt="Tattoo 3" />
+            </div>
+            <div className="gallery-item">
+                <img data-aos="fade-up" src={tatuajeNuevo2} alt="Tattoo 4" />
+            </div>
+            <div className="gallery-item">
+                <img data-aos="fade-right" src={tatuajeNuevo3} alt="Tattoo 5" />
+            </div>
+            <div className="gallery-item">
+                <img data-aos="fade-left" src={tatuajeNuevo4} alt="Tattoo 7" />
             </div>
     </div>
         <BtnVolver/>

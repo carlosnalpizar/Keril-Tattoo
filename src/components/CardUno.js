@@ -23,7 +23,7 @@ const CardUno = () => {
             </div>
             <div className="content">
                 <h2>¡Hola!</h2>
-                <p>Soy Keril Lizano, un apasionado tatuador con un profundo compromiso por tu expresión artística en la piel. Mi enfoque se basa en la creación de obras maestras únicas que reflejen tu individualidad y estilo. A través de mi experiencia y habilidades en el arte del tatuaje, estoy aquí para ayudarte a transformar tus ideas en tatuajes significativos y personalizados. Juntos, exploraremos tu visión y trabajaré contigo para plasmarla en un diseño que sea verdaderamente tuyo, guiándote hacia un viaje de autodescubrimiento y expresión creativa</p>
+                <p>Soy Keril Lizano, un apasionado tatuador con un profundo compromiso por tu expresión artística en la piel. Mi enfoque se basa en la creación de obras maestras únicas que reflejen tu individualidad y estilo. A través de mi experiencia y habilidades en el arte del tatuaje, estoy aquí para ayudarte a transformar tus ideas en tatuajes significativos y personalizados. Juntos, exploraremos tu visión y trabajaré contigo para plasmarla en un diseño que sea verdaderamente tuyo, guiándote hacia un viaje de autodescubrimiento y expresión creativa. </p>
             </div>
         </div>
 

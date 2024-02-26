@@ -4,6 +4,7 @@ import Home from './Home';
 import Portafolio from './pages/Portafolio';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import NotFound from './pages/NotFound';
 
 function App() {
   const location = useLocation();
@@ -18,9 +19,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="Portafolio" element={<Portafolio />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
 
 export default App;
-

@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/NotFound.js"
+to = "/NotFound"
 statis = 200

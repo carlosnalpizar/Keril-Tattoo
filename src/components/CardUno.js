@@ -3,6 +3,7 @@ import '../css/CardUno.css'
 import FotoTattoo1 from '../img/imgBx2.jpg'
 import FotoTattoo2 from '../img/imgBx3.jpg'
 import FotoTattoo3 from '../img/imgBx6.jpg'
+import FotoKeril from '../img/ActualizacionPerfil.jpg'
 import Aos from 'aos';
 import "aos/dist/aos.css"
 
@@ -19,7 +20,7 @@ const CardUno = () => {
     <div className="container">
         <div data-aos="fade-up" className="card card-bg-2">
             <div className="imgBx">
-                <img src={FotoTattoo1} alt=""></img>
+                <img src={FotoKeril} alt=""></img>
             </div>
             <div className="content">
                 <h2>¡Hola!</h2>

@@ -25,6 +25,8 @@ import HeaderUno from '../components/HeaderUno';
 import BtnVolver from '../components/BtnVolver';
 
 const Portafolio = () => {
+    
+    const location = useLocation();
 
     useEffect(() => {
         Aos.init();

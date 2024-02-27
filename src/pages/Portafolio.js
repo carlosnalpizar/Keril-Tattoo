@@ -27,7 +27,8 @@ const Portafolio = () => {
 
     useEffect(() => {
         Aos.init();
-    }, []);
+        window.scrollTo(0, 0); 
+  }, [location.pathname]); 
 
 return (
     <div className='App' style={{backgroundColor:'rgba(0, 0, 0, 1)'}}>

@@ -37,13 +37,13 @@ return (
         </div>
         <div className="gallery">
             <div className="gallery-item">
-                <img data-aos="fade-up" src={tatuaje} alt="Tattoo 1" />
+                <img data-aos="fade-up" src={tatuaje2} alt="Tattoo 1" />
             </div>
             <div className="gallery-item">
-                <img data-aos="fade-right" src={tatuaje2} alt="Tattoo 2" />
+                <img data-aos="fade-right" src={tatuaje6} alt="Tattoo 2" />
             </div>
             <div className="gallery-item">
-                <img data-aos="fade-left" src={tatuaje6} alt="Tattoo 3" />
+                <img data-aos="fade-left" src={tatuaje} alt="Tattoo 3" />
             </div>
             <div className="gallery-item">
                 <img data-aos="fade-up" src={tatuaje4} alt="Tattoo 4" />

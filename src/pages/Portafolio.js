@@ -1,4 +1,5 @@
-import React, { useEffect, useLocation } from 'react'
+import React, { useEffect } from 'react'
+import { useLocation } from 'react-router-dom';
 import '../css/Portafolio.css'
 import Aos from 'aos';
 import '../App.css'
